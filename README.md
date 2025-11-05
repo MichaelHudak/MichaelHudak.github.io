@@ -2,7 +2,7 @@
 I'm a current college student studying data science and environmental science. I'll update this site with my projects!
 
 
-'''
+```
 from question_model import Question
 from data import question_data
 from quiz_brain import QuizBrain
@@ -22,4 +22,4 @@ quiz_ui = QuizInterface(quiz)
 
 print("You've completed the quiz")
 print(f"Your final score was: {quiz.score}/{quiz.question_number}")
-'''
+```
